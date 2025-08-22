@@ -1,0 +1,33 @@
+To give a command, you first need to get your voice assistant to listen. The wake word in your code is Elena.
+
+Once Elena is active, you can give it one of the following commands:
+
+Spotify Commands:
+play spotify <song name> by <artist name>: Starts playing a specific song.
+
+play song: If this command is in the musicLibrary, it will open the song in a new browser window.
+
+pause spotify: Pauses the current song.
+
+resume spotify: Resumes the paused song.
+
+next song: Skips to the next song in the queue.
+
+what is this song: Elena will try to identify the song that is currently playing.
+
+Browser Commands:
+open google: Opens the Google search page in a new browser tab.
+
+open facebook: Opens Facebook in a new browser tab.
+
+open youtube: Opens YouTube in a new browser tab.
+
+open linkedin: Opens LinkedIn in a new browser tab.
+
+Other Commands
+news: Elena will read you the top headlines from India.
+
+Any other question: Elena will use the Gemini AI to respond to your question.
+
+
+Spotify Premium required.
