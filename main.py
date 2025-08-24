@@ -9,10 +9,10 @@ import google.generativeai as genai
 import musicLibrary
 from datetime import datetime
 # === API KEYS & CONFIGURATION ===
-GEMINI_API_KEY = "AIzaSyD0CU8G0ZqxLZwc1ACEPcqbWz5YauLuXgA"
+GEMINI_API_KEY = #API key here
 genai.configure(api_key=GEMINI_API_KEY)
-newsapi = "9fbc53e0876f42908ada772eb46bcc38"
-OPENWEATHERMAP_API_KEY = "4792e964ee305826e1a54f4c587587b3"
+newsapi = #API key here
+OPENWEATHERMAP_API_KEY = #API key here
 scope = "user-read-playback-state,user-modify-playback-state,user-read-currently-playing"
 
 # === INITIALIZATION ===
@@ -133,4 +133,5 @@ if __name__ == "__main__":
         except sr.WaitTimeoutError:
             print("Listening timed out, waiting for wake word again...")
         except Exception as e:
+
             print("Error; {0}".format(e))
